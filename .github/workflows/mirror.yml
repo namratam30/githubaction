@@ -14,9 +14,8 @@ jobs:
           target_repo_url:
             git@github.com:namratam30/githubactionmirror.git
           ssh_private_key:                              # <-- use 'secrets' to pass credential information.
-            ${{ secrets.SSH_PRIVATE_KEY_repo }}
-          ssh_public_key:
             ${{ secrets.SSH_PUBLIC_KEY_repo }}
+          
           
 
  
