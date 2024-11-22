@@ -1,5 +1,5 @@
-- name: Mirroring
-
+name: Mirroring
+run-name: ${{ github.actor }} is testing out Mirror 🚀
 on: [push, delete]
 
 jobs:
